@@ -10,6 +10,9 @@ Changes in stable release 2.6.9 (UNRELEASED)
 
 * New fvwm features:
 
+  - New argument "Offset n" added to 'TitleStyle' command for
+    fine tuning the title text placement.
+
 -------------------------------------------------------------------
 Changes in stable release 2.6.8 (31-Mar-2018)
 

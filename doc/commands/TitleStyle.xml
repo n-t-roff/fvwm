@@ -26,6 +26,11 @@
 			><replaceable>num</replaceable
 		></optional
 	></arg>
+	><arg choice='opt'
+		>Offset <optional
+			><replaceable>num</replaceable
+		></optional
+	></arg>
 </cmdsynopsis>
 
 <para>Sets attributes for the title-bar.  Justifications can be
@@ -36,6 +41,9 @@
 sets the title bar's height to an amount in pixels.
 <fvwmopt cmd="TitleStyle" opt="MinHeight"/>
 sets the minimal height in pixels of the title bar.
+<fvwmopt cmd="TitleStyle" opt="Offset"/>
+specifies an (possibly negative) offset
+for the title text placement.
 Defaults are
 <emphasis remap='I'>Centered</emphasis>,
 the window's font height and no minimal height.

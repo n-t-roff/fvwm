@@ -284,6 +284,7 @@ typedef struct FvwmDecor
 	char *tag;                    /* general style tag */
 	int title_height;           /* explicitly specified title bar height */
 	int min_title_height;
+	int title_offset;
 	/* titlebar buttons */
 	TitleButton buttons[NUMBER_OF_TITLE_BUTTONS];
 	TitleButton titlebar;

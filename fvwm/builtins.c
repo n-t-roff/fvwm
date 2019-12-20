@@ -506,6 +506,17 @@ static void do_title_style(F_CMD_ARGS, Bool do_add)
 			if (action)
 				action += next;
 		}
+		else if (!do_add && StrEquals(parm,"Offset"))
+		{
+			int offset = 0;
+			int next = 0;
+
+			if (action &&
+			    sscanf(action, "%d%n", &offset, &next) > 0)
+				decor->title_offset = offset;
+			if (action)
+				action += next;
+		}
 		else
 		{
 			action = ReadTitleButton(

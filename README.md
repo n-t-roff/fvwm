@@ -1,6 +1,21 @@
 FVWM
 ----
 
+------------------------------------------------------------------------------
+
+This is **not** an official FVWM repository!
+**Please refere to [fvwm](https://github.com/fvwmorg/fvwm)
+or [fvwm3](https://github.com/fvwmorg/fvwm3)
+if you are looking for the official repositories!**
+
+The purpose of the repository here is to do personally required modifications
+which are not suited for merging into the official repository.
+Currently the only modification is to add an `Offset` argument
+to the `TitleStyle` command which allows fine tuning of the title text
+placement when a small value for `TitleStyle Height` is used.
+
+------------------------------------------------------------------------------
+
 [![Build Status](https://travis-ci.org/fvwmorg/fvwm.svg?branch=master)](https://travis-ci.org/fvwmorg/fvwm)
 
 ------------------------------------------------------------------------------

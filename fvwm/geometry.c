@@ -302,6 +302,7 @@ void get_title_font_size_and_offset(
 	{
 		*offset += extra_size / 2;
 	}
+	*offset += fw->decor->title_offset;
 	*size = font_size + extra_size;
 
 	return;
